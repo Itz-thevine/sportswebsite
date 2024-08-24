@@ -54,6 +54,21 @@ body{
 	font-size:14px;
 	color:#888;
 }
+.search-input {
+    width: calc(100% - 150px); /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px; /* Adjust margin as needed */
+    box-sizing: border-box;
+
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
 .pro-features {
 	position: fixed;
 	right: -300px;
@@ -657,9 +672,6 @@ body{
 	font-size: 26px;
 	position: absolute;
 	margin: 0;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
 	padding: 0;
 	border-radius: 50%;
 }
